@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Reef",
+    "slug": "reef-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "scheme": "reef",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D0F14"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.reef.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D0F14"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.reef.mobile"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
