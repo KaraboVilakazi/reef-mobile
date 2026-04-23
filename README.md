@@ -39,9 +39,9 @@ reef-mobile/
 ## Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- Expo CLI (`npm install -g expo-cli`)
+- Node.js 20+
 - [Reef API](https://github.com/KaraboVilakazi/reef) running locally
+- Expo Go app (iOS/Android) — or a local iOS/Android simulator
 
 ```bash
 npm install
@@ -52,4 +52,4 @@ Scan the QR code with Expo Go on your phone, or press `i` for iOS simulator / `a
 
 ## Related
 
-- **API + Web:** [reef](https://github.com/KaraboVilakazi/reef) — .NET 8 + Angular 19
+- **API + Web:** [reef](https://github.com/KaraboVilakazi/reef) — C# / .NET 8 backend with Angular 19 frontend
